@@ -1,0 +1,9 @@
+:root{
+    --verde-amarelado: #606c38ff;
+    --verde-escuro: #283618ff;
+    --branco: #fefae0ff;
+    --amarelo-claro: #dda15eff;  
+}  
+body{
+    backgroun: var(--verde-amarelado);
+}
