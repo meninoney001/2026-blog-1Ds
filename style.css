@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root{
     --verde-amarelado: #606c38ff;
     --verde-escuro: #283618ff;
     --branco: #fefae0ff;
     --amarelo-claro: #dda15eff;  
+    --titulo: "Roboto Condensed", sans-serif;
+    --texto: "Merriweather", serif;
 }  
 body{
-    backgroun: var(--verde-amarelado);
+    background: var(--verde-amarelado);
+    font-family: var(--texto);
+}
+h1{
+    font-family: var(--titulo);
 }
