@@ -13,6 +13,9 @@ body{
     background: var(--verde-amarelado);
     font-family: var(--texto);
 }
-h1{
-    font-family: var(--titulo);
+header{
+    background-color: var(--verde-amarelo);
+    display: flex;
+    justify-content: space-around;
+    color: var(--branco  );
 }
