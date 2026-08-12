@@ -19,3 +19,13 @@ header{
     justify-content: space-around;
     color: var(--branco  );
 }
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--amarelo-claro);
+    text-transform: uppercase;
+    font-size: 14px;
+   
+}
