@@ -29,3 +29,16 @@ header{
     font-size: 14px;
    
 }
+.menu a{  
+    text-decoration: 
+    color: var(--branco);
+    font-weight: bold;
+}
+.menu a:hover{
+    color: var(--amarelo-claro);
+    transition: 1s;
+}
+.img-capa{
+    width: 100%;
+    height: 10%;
+}
