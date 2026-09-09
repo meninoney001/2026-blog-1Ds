@@ -8,28 +8,28 @@
     --amarelo-claro: #dda15eff;
     --titulo: "Roboto Condensed", sans-serif;
     --texto: "Merriweather", serif;
-    }
+}
          
-    :root{
+:root{
     --cinza-chumbo: #463f3aff;
     --cinza-verde: #8a817cff;
     --prata: #bcb8b1ff;
     --branco: #f4f3eeff;
     --titulo: "Montenegrin Gothic One", serif;
     --texto: "Raleway", sans-serif;
-    }
+}
     
-    body{
+body{
     background: var(--cinza-verde);
     font-family: var(--texto);
-    }
-    header{
+}
+header{
     background-color: var(--cinza-chumbo);
     display: flex;
     justify-content: space-around;
     color: var(--prata );
-    }
-    .menu{
+}
+.menu{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -37,15 +37,24 @@
     color: var(--branco);
     text-transform: uppercase;
     font-size: 14px;
-    }
-    .conteudo{
-        margin: 30px;
-        border: 2px solid var(--branco);
-        padding: 30px; 
-        text-align: center;
+}
+.conteudo{
+    margin: 30px;
+    border: 2px solid var(--branco);
+    padding: 30px; 
+    text-align: center;
 }
 .conteudo-titulo{
-  font-family: var(--titulo);
-  font-size: 24px;
-  padding-bottom: ;
+    font-family: var(--titulo);
+    font-size: 24px;
+    padding-bottom: 
+}
+
+footer{
+    background-color: var(--cinza-chumbo);
+    color: var(--prata);
+    font-family: var(--titulo);
+    font-size: 20px;
+    padding: 20px;
+
 }
